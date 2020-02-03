@@ -7,7 +7,7 @@ function cria(){
     criaCaixa.appendChild(div); // adicionando o elemento div dentro de outro elemento criaCaixa
 
     div.setAttribute("onmouseover","getRandomColor()");//setando um novo atributo na div(caixa)...Esse atributo 
-                                                       //será usado na função getRandomColor
+                                                       //será usado na função getRandomColor()
 }
 
 function getRandomColor() {
